@@ -1703,7 +1703,7 @@ One object creator has decided that the previous name they used for an SDO is in
 
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
-    <th><span class="stixtr">Step&nbsp;#</span</th>
+    <th><span class="stixtr">Step&nbsp;#</span></th>
     <th><span class="stixtr">STIX Object</span></th>
     <th><span class="stixtr">Object Creator Action</span></th>
   </tr>
@@ -2062,9 +2062,9 @@ The Attack Pattern SDO contains textual descriptions of the pattern along with r
 
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
-    <th><span class='stixtr'>Property Name</span</th>
-    <th><span class='stixtr'>Type</span</th>
-    <th><span class='stixtr'>Description</span</th>
+    <th><span class='stixtr'>Property Name</span></th>
+    <th><span class='stixtr'>Type</span></th>
+    <th><span class='stixtr'>Description</span></th>
   </tr>
   <tr>
     <td><strong>type</strong> (required)</td>
@@ -2283,9 +2283,9 @@ For example, a Campaign could be used to describe a crime syndicate’s attack u
 
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
-    <th><span class='stixtr'>Property Name</span</th>
-    <th><span class='stixtr'>Type</span</th>
-    <th><span class='stixtr'>Description</span</th>
+    <th><span class='stixtr'>Property Name</span></th>
+    <th><span class='stixtr'>Type</span></th>
+    <th><span class='stixtr'>Description</span></th>
   </tr>
   <tr>
     <td><strong>type</strong> (required)</td>
@@ -2460,9 +2460,9 @@ The Course of Action SDO contains a textual description of the action; a reserve
 
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
-    <th><span class='stixtr'>Property Name</span</th>
-    <th><span class='stixtr'>Type</span</th>
-    <th><span class='stixtr'>Description</span</th>
+    <th><span class='stixtr'>Property Name</span></th>
+    <th><span class='stixtr'>Type</span></th>
+    <th><span class='stixtr'>Description</span></th>
   </tr>
   <tr>
     <td><strong>type</strong> (required)</td>
@@ -2888,9 +2888,9 @@ A STIX Grouping object might represent a set of data that, in time, given suffic
 
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
-    <th><span class='stixtr'>Property Name</span</th>
-    <th><span class='stixtr'>Type</span</th>
-    <th><span class='stixtr'>Description</span</th>
+    <th><span class='stixtr'>Property Name</span></th>
+    <th><span class='stixtr'>Type</span></th>
+    <th><span class='stixtr'>Description</span></th>
   </tr>
   <tr>
     <td><strong>type</strong> (required)</td>
@@ -3030,9 +3030,9 @@ The Identity SDO can capture basic identifying information, contact information,
 
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
-    <th><span class='stixtr'>Property Name</span</th>
-    <th><span class='stixtr'>Type</span</th>
-    <th><span class='stixtr'>Description</span</th>
+    <th><span class='stixtr'>Property Name</span></th>
+    <th><span class='stixtr'>Type</span></th>
+    <th><span class='stixtr'>Description</span></th>
   </tr>
   <tr>
     <td><strong>type</strong> (required)</td>
@@ -3533,7 +3533,7 @@ The reverse relationships section illustrates the relationships targeting this o
   </tr>
   <tr>
     <td><strong>superseded_by_ref</strong></td>
-    <td><span class="stixtype"><span class="stixtype">identifier</span> (of type <span class="stixtype">impact</span>)</td>
+    <td><span class="stixtype">identifier</span> (of type <span class="stixtype">impact</span>)</td>
   </tr>
 </table>
 
@@ -3633,9 +3633,9 @@ The Incident object should have sufficient properties to represent the current s
 
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
-    <th><span class='stixtr'>Property Name</span</th>
-    <th><span class='stixtr'>Type</span</th>
-    <th><span class='stixtr'>Description</span</th>
+    <th><span class='stixtr'>Property Name</span></th>
+    <th><span class='stixtr'>Type</span></th>
+    <th><span class='stixtr'>Description</span></th>
   </tr>
   <tr>
     <td><strong>type</strong> (required)</td>
@@ -3652,7 +3652,6 @@ The Incident object should have sufficient properties to represent the current s
     <td><a class="stixtype" href="#string">string</a></td>
     <td>A description that provides more details and context about the Incident, potentially including its purpose and its key characteristics.</td>
   </tr>
-  <tbody>
   <tr>
     <td><strong>determination</strong> (required)</td>
     <td><span class="stixtype"><a href="#incident-determination-enumeration">incident-determination-enum</a></span></td>
@@ -3864,9 +3863,9 @@ Relationships from the Indicator can describe the malicious or suspicious behavi
 
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
-    <th><span class='stixtr'>Property Name</span</th>
-    <th><span class='stixtr'>Type</span</th>
-    <th><span class='stixtr'>Description</span</th>
+    <th><span class='stixtr'>Property Name</span></th>
+    <th><span class='stixtr'>Type</span></th>
+    <th><span class='stixtr'>Description</span></th>
   </tr>
   <tr>
     <td><strong>type</strong> (required)</td>
@@ -4848,27 +4847,27 @@ To minimize the risk of a consumer compromising their system in parsing malware 
   </tr>
   <tr>
     <td><strong>operating_system_refs</strong> (optional)</td>
-    <td><span style="white-space: nowrap;"><span class="stixtype">list</span> of type <span class="stixtype">identifier</span></td>
+    <td><span style="white-space: nowrap;"><span class="stixtype">list</span> of type <span class="stixtype">identifier</span></span></td>
     <td>The operating systems that the malware family or malware instance is executable on. This applies to virtualized operating systems as well as those running on bare metal.<br /><br />The value of this property <strong>MUST</strong> be the <span class="stixtype">identifier</span> for a SCO <span class="stixtype">software</span> object.</td>
   </tr>
   <tr>
     <td><strong>architecture_execution_envs</strong> (optional)</td>
-    <td><span style="white-space: nowrap;"><span class="stixtype">list</span> of type <span class="stixtype">open-vocab</span></td>
+    <td><span style="white-space: nowrap;"><span class="stixtype">list</span> of type <span class="stixtype">open-vocab</span></span></td>
     <td>The processor architectures (e.g., x86, ARM, etc.) that the malware instance or family is executable on.<br /><br />The values for this property <strong>SHOULD</strong> come from the <a href="#processor-architecture-vocabulary"><span class="stixvocab">processor-architecture-ov</span></a> open vocabulary.</td>
   </tr>
   <tr>
     <td><strong>implementation_languages</strong> (optional)</td>
-    <td><span style="white-space: nowrap;"><span class="stixtype">list</span> of type <span class="stixtype">open-vocab</span></td>
+    <td><span style="white-space: nowrap;"><span class="stixtype">list</span> of type <span class="stixtype">open-vocab</span></span></td>
     <td>The programming language(s) used to implement the malware instance or family.<br /><br />The values for this property <strong>SHOULD</strong> come from the <a href="#implementation-language-vocabulary"><span class="stixvocab">implementation-language-ov</span></a> open vocabulary.</td>
   </tr>
   <tr>
     <td><strong>capabilities</strong> (optional)</td>
-    <td><span style="white-space: nowrap;"><span class="stixtype">list</span> of type <span class="stixtype">open-vocab</span></td>
+    <td><span style="white-space: nowrap;"><span class="stixtype">list</span> of type <span class="stixtype">open-vocab</span></span></td>
     <td>Any of the capabilities identified for the malware instance or family.<br /><br />The values for this property <strong>SHOULD</strong> come from the <a href="#malware-capabilities-vocabulary"><span class="stixvocab">malware-capabilities-ov</span></a> open vocabulary.</td>
   </tr>
   <tr>
     <td><strong>sample_refs</strong> (optional)</td>
-    <td><span style="white-space: nowrap;"><span class="stixtype">list</span> of type <span class="stixtype">identifier</span></td>
+    <td><span style="white-space: nowrap;"><span class="stixtype">list</span> of type <span class="stixtype">identifier</span></span></td>
     <td>The <strong>sample_refs</strong> property specifies a list of <span class="stixtype">identifiers</span> of the SCO <span class="stixtype">file</span> or <span class="stixtype">artifact</span> objects associated with this malware instance(s) or family.<br /><br />If <strong>is_family</strong> is <span class="stixliteral">false</span>, then all samples listed in <strong>sample_refs MUST</strong> refer to the same binary data.</td>
   </tr>
 </table>
@@ -4894,9 +4893,11 @@ Relationships are not restricted to those listed below. Relationships can be cre
   <tr>
     <td><strong>operating_system_refs</strong></td>
     <td><span class="stixtype">list</span> of type <span class="stixtype">identifier</span> (of type <span class="stixtype">software</span>)</td>
+  </tr>
   <tr>
     <td><strong>sample_refs</strong></td>
     <td><span class="stixtype">list</span> of type <span class="stixtype">identifier</span> (of type <span class="stixtype">file</span> or <span class="stixtype">artifact</span>)</td>
+  </tr>
 </table>
 
 <table border="1" cellspacing="0" cellpadding="6" width="100%">
@@ -8196,6 +8197,7 @@ The Archive File extension specifies a default extension for capturing propertie
     <td><strong>comment</strong> (optional)</td>
     <td><a class="stixtype" href="#string">string</a></td>
     <td>Specifies a comment included as part of the archive file.</td>
+  </tr>
 </table>
 
 **Example**
@@ -8275,6 +8277,7 @@ An object using the NTFS File Extension **MUST** contain at least one property f
     <td><strong>alternate_data_streams</strong> (optional)</td>
     <td><span class="stixtype">list</span> of type <span style="white-space: nowrap;"><span class="stixtype">alternate-data-stream-type</span></span></td>
     <td>Specifies a list of NTFS alternate data streams that exist for the file.</td>
+  </tr>
 </table>
 
 #### 6.7.3.2 Alternate Data Stream Type <a id="alternate-data-stream-type"></a>
@@ -12194,7 +12197,7 @@ Each Observation Expression **MAY** have additional temporal or repetition restr
   </tr>
   <tr>
     <td><span style="white-space: nowrap;"><em>a</em> <span class="stixliteral">REPEATS</span> <em>x</em> <span class="stixliteral">TIMES</span></span></td>
-    <td><em>a</em> <strong>MUST</strong> be an Observation Expression or a preceding Qualifier. <em>a</em> <strong>MUST</strong> match at least <em>x</em> times, where each match is a different Observation. <em>x</em> <strong>MUST</strong> be a positive integer.<br /><br />This is purely a shorthand way of writing:<br />"<em>a</em>" followed by "AND <em>a</em>", x-1 times.<br /><br />Example:<br /><pre><code>[ b ] FOLLOWEDBY [ c ] REPEATS 5 TIMES</code></pre>In this example, the <span class="stixliteral">REPEATS</span> applies to c, and it does not apply to b. The results will be b plus 5 c's where all 5 c's were observed after the b. Note that there is only a single Qualifier in this example; more complex patterns may use more than one.
+    <td><em>a</em> <strong>MUST</strong> be an Observation Expression or a preceding Qualifier. <em>a</em> <strong>MUST</strong> match at least <em>x</em> times, where each match is a different Observation. <em>x</em> <strong>MUST</strong> be a positive integer.<br /><br />This is purely a shorthand way of writing:<br />"<em>a</em>" followed by "AND <em>a</em>", x-1 times.<br /><br />Example:<br /><pre><code>[ b ] FOLLOWEDBY [ c ] REPEATS 5 TIMES</code></pre>In this example, the <span class="stixliteral">REPEATS</span> applies to c, and it does not apply to b. The results will be b plus 5 c's where all 5 c's were observed after the b. Note that there is only a single Qualifier in this example; more complex patterns may use more than one.</td>
   </tr>
   <tr>
     <td><span style="white-space: nowrap;"><em>a</em> <span class="stixliteral">WITHIN</span> <em>x</em> <span class="stixliteral">SECONDS</span></span></td>
@@ -12334,22 +12337,22 @@ A Comparison Operator **MAY** be preceded by the modifier <span class="stixliter
   <tr>
     <td><em>a</em> <span class="stixliteral">&gt;</span> <em>b</em></td>
     <td><em>a</em> is numerically or lexically greater than <em>b</em>, where <em>a</em> <strong>MUST</strong> be an Object Path and <em>b</em> <strong>MUST</strong> be a constant of the same data type as the Object property specified by <em>a</em>.</td>
-    <td><pre><code>file:size > 256</code></pre></td>
+    <td><pre><code>file:size &gt; 256</code></pre></td>
   </tr>
   <tr>
     <td><em>a</em> <span class="stixliteral">&lt;</span> <em>b</em></td>
     <td><em>a</em> is numerically or lexically less than <em>b</em>, where <em>a</em> <strong>MUST</strong> be an Object Path and <em>b</em> <strong>MUST</strong> be a constant of the same data type as the Object property specified by <em>a</em>.</td>
-    <td><pre><code>file:size < 1024</code></pre></td>
+    <td><pre><code>file:size &lt; 1024</code></pre></td>
   </tr>
   <tr>
     <td><em>a</em> <span class="stixliteral">&lt;=</span> <em>b</em></td>
     <td><em>a</em> is numerically or lexically less than or equal to <em>b</em>, where <em>a</em> <strong>MUST</strong> be an Object Path and <em>b</em> <strong>MUST</strong> be a constant of the same data type as the Object property specified by <em>a</em>.</td>
-    <td><pre><code>file:size <= 25145</code></pre></td>
+    <td><pre><code>file:size &lt;= 25145</code></pre></td>
   </tr>
   <tr>
     <td><em>a</em> <span class="stixliteral">&gt;=</span> <em>b</em></td>
     <td><em>a</em> is numerically or lexically greater than or equal to <em>b</em>, where <em>a</em> <strong>MUST</strong> be an Object Path and <em>b</em> <strong>MUST</strong> be a constant of the same data type as the Object property specified by <em>a</em>.</td>
-    <td><pre><code>file:size >= 33312</code></pre></td>
+    <td><pre><code>file:size &gt;= 33312</code></pre></td>
   </tr>
   <tr>
     <td><em>a</em> <span class="stixliteral">IN</span> <em>(x,y,…​)</em></td>
@@ -12385,7 +12388,7 @@ A Comparison Operator **MAY** be preceded by the modifier <span class="stixliter
     <td><pre><code>ipv4-addr:value ISSUPERSET '198.51.100.0/24'</code></pre></td>
   </tr>
   <tr>
-    <td><span style="white-space: nowrap;"><span class="stixliteral">EXISTS</span> <em>a</em></td>
+    <td><span style="white-space: nowrap;"><span class="stixliteral">EXISTS</span> <em>a</em></span></td>
     <td><em>a</em> <strong>MUST</strong> be an Object Path which specifies a single property that <strong>MUST</strong> exist on the Object specified by the Observation Expression in order for the Comparison Expression to evaluate to true.<br /><br />For example, EXISTS windows-registry-key:values would evaluate to true on a registry key that contains a 'values' property (regardless of its contents).</td>
     <td><pre><code>EXISTS windows-registry-key:values</code></pre></td>
   </tr>
@@ -12925,6 +12928,7 @@ Attack Resource Level is an open vocabulary that captures the general level of r
     <th><span class='stixtr'>Vocabulary Value</span></th>
     <th><span class='stixtr'>Description</span></th>
   </tr>
+  <tr>
     <td><span class="stixliteral">individual</span></td>
     <td>Resources limited to the average individual; Threat Actor acts independently.</td>
   </tr>
@@ -13229,7 +13233,7 @@ These include:
 **Type Name:** event-type-ov
 
 <table border="1" cellspacing="0" cellpadding="6" width="100%"><tr>    <th><span class="stixtr">Vocabulary Summary</span></th></tr><tr>
-    <td><span class="stixliteral">aggregation-information-phishing-schemes</span>, <span class="stixliteral">benign</span>, <span class="stixliteral">blocked</span>, <span class="stixliteral">brute-force-attempt</span>, <span class="stixliteral">c&c-server-hosting</span>, <span class="stixliteral">compromised-system</span>, <span class="stixliteral">confirmed</span>, <span class="stixliteral">connection-malware-port</span>, <span class="stixliteral">connection-malware-system</span>, <span class="stixliteral">content-forbidden-by-law</span>, <span class="stixliteral">control-system-bypass</span>, <span class="stixliteral">copyrighted-content</span>, <span class="stixliteral">data-exfiltration</span>, <span class="stixliteral">deferred</span>, <span class="stixliteral">deletion-information</span>, <span class="stixliteral">denial-of-service</span>, <span class="stixliteral">destruction</span>, <span class="stixliteral">dictionary-attack-attempt</span>, <span class="stixliteral">discarded</span>, <span class="stixliteral">disruption-data-transmission</span>, <span class="stixliteral">dissemination-malware-email</span>, <span class="stixliteral">dissemination-phishing-emails</span>, <span class="stixliteral">dns-cache-poisoning</span>, <span class="stixliteral">dns-local-resolver-hijacking</span>, <span class="stixliteral">dns-rebinding</span>, <span class="stixliteral">dns-server-compromise</span>, <span class="stixliteral">dns-spoofing-registered</span>, <span class="stixliteral">dns-spoofing-unregistered</span>, <span class="stixliteral">dns-stub-resolver-hijacking</span>, <span class="stixliteral">dns-zone-transfer</span>, <span class="stixliteral">domain-name-compromise</span>, <span class="stixliteral">duplicate</span>, <span class="stixliteral">email-flooding</span>, <span class="stixliteral">equipment-loss</span>, <span class="stixliteral">equipment-theft</span>, <span class="stixliteral">exploit</span>, <span class="stixliteral">exploit-attempt</span>, <span class="stixliteral">exploit-framework-exhausting-resources</span>, <span class="stixliteral">exploit-tool-exhausting-resources</span>, <span class="stixliteral">failed</span>, <span class="stixliteral">file-inclusion</span>, <span class="stixliteral">file-inclusion-attempt</span>, <span class="stixliteral">hosting-malware-webpage</span>, <span class="stixliteral">hosting-phishing-sites</span>, <span class="stixliteral">illegitimate-use-name</span>, <span class="stixliteral">illegitimate-use-resources</span>, <span class="stixliteral">infected-by-known-malware</span>, <span class="stixliteral">insufficient-data</span>, <span class="stixliteral">known-malware</span>, <span class="stixliteral">lame-delegations</span>, <span class="stixliteral">major</span>, <span class="stixliteral">misconfiguration</span>, <span class="stixliteral">modification-information</span>, <span class="stixliteral">natural</span>, <span class="stixliteral">negotiation</span>, <span class="stixliteral">network-scanning</span>, <span class="stixliteral">no-apt</span>, <span class="stixliteral">packet-flood</span>, <span class="stixliteral">password-cracking-attempt</span>, <span class="stixliteral">policy-violation</span>, <span class="stixliteral">ransomware</span>, <span class="stixliteral">ransomware-payment</span>, <span class="stixliteral">refuted</span>, <span class="stixliteral">scan-probe</span>, <span class="stixliteral">silently-discarded</span>, <span class="stixliteral">spam</span>, <span class="stixliteral">sql-injection</span>, <span class="stixliteral">sql-injection-attempt</span>, <span class="stixliteral">successful</span>, <span class="stixliteral">supply-chain-customer</span>, <span class="stixliteral">supply-chain-vendor</span>, <span class="stixliteral">system-probe</span>, <span class="stixliteral">theft-access-credentials</span>, <span class="stixliteral">unattributed</span>, <span class="stixliteral">unauthorized-access-information</span>, <span class="stixliteral">unauthorized-access-system</span>, <span class="stixliteral">unauthorized-equipment</span>, <span class="stixliteral">unauthorized-release</span>, <span class="stixliteral">unauthorized-use</span>, <span class="stixliteral">undetermined</span>, <span class="stixliteral">unintentional</span>, <span class="stixliteral">unknown-apt</span>, <span class="stixliteral">unspecified</span>, <span class="stixliteral">vandalism</span>, <span class="stixliteral">wiretapping</span>, <span class="stixliteral">worm-spreading</span>, <span class="stixliteral">xss</span>, <span class="stixliteral">xss-attempt</span></td>
+    <td><span class="stixliteral">aggregation-information-phishing-schemes</span>, <span class="stixliteral">benign</span>, <span class="stixliteral">blocked</span>, <span class="stixliteral">brute-force-attempt</span>, <span class="stixliteral">c&amp;c-server-hosting</span>, <span class="stixliteral">compromised-system</span>, <span class="stixliteral">confirmed</span>, <span class="stixliteral">connection-malware-port</span>, <span class="stixliteral">connection-malware-system</span>, <span class="stixliteral">content-forbidden-by-law</span>, <span class="stixliteral">control-system-bypass</span>, <span class="stixliteral">copyrighted-content</span>, <span class="stixliteral">data-exfiltration</span>, <span class="stixliteral">deferred</span>, <span class="stixliteral">deletion-information</span>, <span class="stixliteral">denial-of-service</span>, <span class="stixliteral">destruction</span>, <span class="stixliteral">dictionary-attack-attempt</span>, <span class="stixliteral">discarded</span>, <span class="stixliteral">disruption-data-transmission</span>, <span class="stixliteral">dissemination-malware-email</span>, <span class="stixliteral">dissemination-phishing-emails</span>, <span class="stixliteral">dns-cache-poisoning</span>, <span class="stixliteral">dns-local-resolver-hijacking</span>, <span class="stixliteral">dns-rebinding</span>, <span class="stixliteral">dns-server-compromise</span>, <span class="stixliteral">dns-spoofing-registered</span>, <span class="stixliteral">dns-spoofing-unregistered</span>, <span class="stixliteral">dns-stub-resolver-hijacking</span>, <span class="stixliteral">dns-zone-transfer</span>, <span class="stixliteral">domain-name-compromise</span>, <span class="stixliteral">duplicate</span>, <span class="stixliteral">email-flooding</span>, <span class="stixliteral">equipment-loss</span>, <span class="stixliteral">equipment-theft</span>, <span class="stixliteral">exploit</span>, <span class="stixliteral">exploit-attempt</span>, <span class="stixliteral">exploit-framework-exhausting-resources</span>, <span class="stixliteral">exploit-tool-exhausting-resources</span>, <span class="stixliteral">failed</span>, <span class="stixliteral">file-inclusion</span>, <span class="stixliteral">file-inclusion-attempt</span>, <span class="stixliteral">hosting-malware-webpage</span>, <span class="stixliteral">hosting-phishing-sites</span>, <span class="stixliteral">illegitimate-use-name</span>, <span class="stixliteral">illegitimate-use-resources</span>, <span class="stixliteral">infected-by-known-malware</span>, <span class="stixliteral">insufficient-data</span>, <span class="stixliteral">known-malware</span>, <span class="stixliteral">lame-delegations</span>, <span class="stixliteral">major</span>, <span class="stixliteral">misconfiguration</span>, <span class="stixliteral">modification-information</span>, <span class="stixliteral">natural</span>, <span class="stixliteral">negotiation</span>, <span class="stixliteral">network-scanning</span>, <span class="stixliteral">no-apt</span>, <span class="stixliteral">packet-flood</span>, <span class="stixliteral">password-cracking-attempt</span>, <span class="stixliteral">policy-violation</span>, <span class="stixliteral">ransomware</span>, <span class="stixliteral">ransomware-payment</span>, <span class="stixliteral">refuted</span>, <span class="stixliteral">scan-probe</span>, <span class="stixliteral">silently-discarded</span>, <span class="stixliteral">spam</span>, <span class="stixliteral">sql-injection</span>, <span class="stixliteral">sql-injection-attempt</span>, <span class="stixliteral">successful</span>, <span class="stixliteral">supply-chain-customer</span>, <span class="stixliteral">supply-chain-vendor</span>, <span class="stixliteral">system-probe</span>, <span class="stixliteral">theft-access-credentials</span>, <span class="stixliteral">unattributed</span>, <span class="stixliteral">unauthorized-access-information</span>, <span class="stixliteral">unauthorized-access-system</span>, <span class="stixliteral">unauthorized-equipment</span>, <span class="stixliteral">unauthorized-release</span>, <span class="stixliteral">unauthorized-use</span>, <span class="stixliteral">undetermined</span>, <span class="stixliteral">unintentional</span>, <span class="stixliteral">unknown-apt</span>, <span class="stixliteral">unspecified</span>, <span class="stixliteral">vandalism</span>, <span class="stixliteral">wiretapping</span>, <span class="stixliteral">worm-spreading</span>, <span class="stixliteral">xss</span>, <span class="stixliteral">xss-attempt</span></td>
 </tr></table>
 <table border="1" cellspacing="0" cellpadding="6" width="100%"><tr>    <th><span class="stixtr">Vocabulary Value</span></th>    <th><span class="stixtr">Description</span></th></tr>
 <tr>
@@ -13249,7 +13253,7 @@ These include:
     <td>Unsuccessful login attempt by using sequential credentials for gaining access to the system.</td>
 </tr>
 <tr>
-    <td><span class="stixliteral">c&c-server-hosting</span></td>
+    <td><span class="stixliteral">c&amp;c-server-hosting</span></td>
     <td>Web page disseminating one or various types of malware.</td>
 </tr>
 <tr>
@@ -13266,7 +13270,7 @@ These include:
 </tr>
 <tr>
     <td><span class="stixliteral">connection-malware-system</span></td>
-    <td>System attempting to gain access to an IP address or URL normally linked to a specific type of malware, e.g. C&C or a distribution page for components linked to a specific botnet.</td>
+    <td>System attempting to gain access to an IP address or URL normally linked to a specific type of malware, e.g. C&amp;C or a distribution page for components linked to a specific botnet.</td>
 </tr>
 <tr>
     <td><span class="stixliteral">content-forbidden-by-law</span></td>
@@ -13584,7 +13588,6 @@ These include:
     <td><span class="stixliteral">xss-attempt</span></td>
     <td>Unsuccessful attempts to perform attacks by using cross-site scripting techniques.</td>
 </tr>
-
 </table>
 
 
@@ -15091,7 +15094,7 @@ A list of world regions based on the United Nations geoscheme [UNSD M49].
     <th><span class='stixtr'>Vocabulary Summary</span></th>
   </tr>
   <tr>
-    <td><span class="stixliteral">africa</span> (<span class="stixliteral">eastern-africa, <span class="stixliteral">middle-africa, <span class="stixliteral">northern-africa, <span class="stixliteral">southern-africa, <span class="stixliteral">western-africa</span>), <span class="stixliteral">americas</span> (<span class="stixliteral">caribbean, <span class="stixliteral">central-america, <span class="stixliteral">latin-america-caribbean, <span class="stixliteral">northern-america, <span class="stixliteral">south-america</span>), <span class="stixliteral">asia</span> (<span class="stixliteral">central-asia, <span class="stixliteral">eastern-asia, <span class="stixliteral">southern-asia, <span class="stixliteral">south-eastern-asia, <span class="stixliteral">western-asia</span>), <span class="stixliteral">europe</span> (<span class="stixliteral">eastern-europe, <span class="stixliteral">northern-europe, <span class="stixliteral">southern-europe, <span class="stixliteral">western-europe</span>), <span class="stixliteral">oceania</span> (<span class="stixliteral">antarctica, <span class="stixliteral">australia-new-zealand, <span class="stixliteral">melanesia, <span class="stixliteral">micronesia, <span class="stixliteral">polynesia</span>)</td>
+    <td><span class="stixliteral">africa</span> (<span class="stixliteral">eastern-africa</span>, <span class="stixliteral">middle-africa</span>, <span class="stixliteral">northern-africa</span>, <span class="stixliteral">southern-africa</span>, <span class="stixliteral">western-africa</span>), <span class="stixliteral">americas</span> (<span class="stixliteral">caribbean</span>, <span class="stixliteral">central-america</span>, <span class="stixliteral">latin-america-caribbean</span>, <span class="stixliteral">northern-america</span>, <span class="stixliteral">south-america</span>), <span class="stixliteral">asia (<span class="stixliteral">central-asia</span>, <span class="stixliteral">eastern-asia</span>, <span class="stixliteral">southern-asia</span>, <span class="stixliteral">south-eastern-asia</span>, <span class="stixliteral">western-asia</span>)</span>, <span class="stixliteral">europe</span> (<span class="stixliteral">eastern-europe</span>, <span class="stixliteral">northern-europe</span>, <span class="stixliteral">southern-europe</span>, <span class="stixliteral">western-europe</span>), <span class="stixliteral">oceania</span> (<span class="stixliteral">antarctica</span>, <span class="stixliteral">australia-new-zealand</span>, <span class="stixliteral">melanesia</span>, <span class="stixliteral">micronesia</span>, <span class="stixliteral">polynesia</span>)</td>
   </tr>
 </table>
 
@@ -15477,6 +15480,7 @@ Threat actor roles are not mutually exclusive. For example, an actor can be both
   <tr>
     <td><span class="stixliteral">agent</span>, <span class="stixliteral">director</span>, <span class="stixliteral">independent</span>, <span class="stixliteral">infrastructure-architect</span>, <span class="stixliteral">infrastructure-operator</span>, <span class="stixliteral">malware-author</span>, <span class="stixliteral">sponsor</span></td>
   </tr>
+</table>
 
 <table border="1" cellspacing="0" cellpadding="6" width="100%">
   <tr>
